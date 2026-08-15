@@ -1,0 +1,267 @@
+﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(537,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(551,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (project_internal.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+cl : command line  warning D9002: ignoring unknown option '/Zc:threadSatelnit-'
+  functions.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(5094,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'cheat/functions.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(5094,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Administrator\Desktop\unlock all\unlock all\project\sdk\structs.hpp(309,27):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\Administrator\Desktop\unlock all\unlock all\project\sdk\structs.hpp(309,9):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'fstring::ToString2'
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(862,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(1018,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  hooks.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(5094,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'cheat/hooks.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(5094,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Administrator\Desktop\unlock all\unlock all\project\sdk\structs.hpp(309,27):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\Administrator\Desktop\unlock all\unlock all\project\sdk\structs.hpp(309,9):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'fstring::ToString2'
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(862,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(1018,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(5094,18): warning C4244: '=': conversion from 'const wchar_t' to 'char', possible loss of data
+  (compiling source file 'cheat/hooks.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(5094,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Administrator\Desktop\unlock all\unlock all\project\cheat\hooks.cpp(3966,18):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\Administrator\Desktop\unlock all\unlock all\project\cheat\hooks.cpp(3966,18):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'family_from_logged_name'
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(862,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<const wchar_t*,const wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=const wchar_t *,
+              _Sent=const wchar_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(1018,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<const wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=const wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  entry.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(5094,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'main/entry.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(5094,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Administrator\Desktop\unlock all\unlock all\project\sdk\structs.hpp(309,27):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\Administrator\Desktop\unlock all\unlock all\project\sdk\structs.hpp(309,9):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'fstring::ToString2'
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(862,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(1018,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  Generating Code...
+functions.obj : warning LNK4006: "void __cdecl memory::EraseIATAndRelocs(struct HINSTANCE__ *)" (?EraseIATAndRelocs@memory@@YAXPEAUHINSTANCE__@@@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "double __cdecl GameplayStatics::GetTimeSeconds(class uobject *)" (?GetTimeSeconds@GameplayStatics@@YANPEAVuobject@@@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "bool __cdecl memory::IsValidPointer2(void *)" (?IsValidPointer2@memory@@YA_NPEAX@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "bool __cdecl kismentsystemlibrary::LineTraceSingle(struct UWorld2 *,struct fvector,struct fvector,enum ETraceTypeQuery,bool,struct tarray<struct AActor *>,enum EDrawDebugTrace,struct FHitResult &,bool,struct flinearcolor,struct flinearcolor,float)" (?LineTraceSingle@kismentsystemlibrary@@YA_NPEAUUWorld2@@Ufvector@@1W4ETraceTypeQuery@@_NU?$tarray@PEAUAActor@@@@W4EDrawDebugTrace@@AEAUFHitResult@@3Uflinearcolor@@7M@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class ftext __cdecl MakeSafeFText(class fstring const &)" (?MakeSafeFText@@YA?AVftext@@AEBVfstring@@@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "void __cdecl SecurelyClearBuffer(char volatile *,unsigned __int64)" (?SecurelyClearBuffer@@YAXPECD_K@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "void __cdecl SetAspectRatio(float)" (?SetAspectRatio@@YAXM@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "struct UParticleSystemComponent * __cdecl GameplayStatics::SpawnEmitterAtLocationWithWorld(class uobject *,struct UParticleSystem *,struct fvector,class frotator,struct fvector,bool,enum EPSCPoolMethod,bool,bool,float)" (?SpawnEmitterAtLocationWithWorld@GameplayStatics@@YAPEAUUParticleSystemComponent@@PEAVuobject@@PEAUUParticleSystem@@Ufvector@@Vfrotator@@2_NW4EPSCPoolMethod@@44M@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * __cdecl ShooterGameBlueprints::Static_Class(void)" (?Static_Class@ShooterGameBlueprints@@YAPEAVuobject@@XZ) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "float __cdecl __atan2f(float,float)" (?__atan2f@@YAMMM@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "float __cdecl __fabs(float)" (?__fabs@@YAMM@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "float __cdecl __sqrtf(float)" (?__sqrtf@@YAMM@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl computeHandshakeResponse(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?computeHandshakeResponse@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@0@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "void * __cdecl crt::custom_memcpy(void *,void const *,unsigned __int64)" (?custom_memcpy@crt@@YAPEAXPEAXPEBX_K@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "void * __cdecl crt::custom_memset(void *,int,unsigned int)" (?custom_memset@crt@@YAPEAXPEAXHI@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "void __cdecl initialize_spoofcall(unsigned char *,unsigned int)" (?initialize_spoofcall@@YAXPEAEI@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "bool __cdecl memory::is_valid(unsigned __int64)" (?is_valid@memory@@YA_N_K@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "bool __cdecl memory::isvalidniggersorwhat(void *,void *)" (?isvalidniggersorwhat@memory@@YA_NPEAX0@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "unsigned __int64 __cdecl malloc_spoofed(int,unsigned int)" (?malloc_spoofed@@YA_KHI@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class UObject * __cdecl kismentsystemlibrary::static_class(void)" (?static_class@kismentsystemlibrary@@YAPEAVUObject@@XZ) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class ftext __cdecl string_to_text(class fstring const &)" (?string_to_text@@YA?AVftext@@AEBVfstring@@@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "bool __cdecl verifyChallengeTimestamp(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?verifyChallengeTimestamp@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl xorEncryptDecrypt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?xorEncryptDecrypt@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@0@Z) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "unsigned __int64 proxy_call_returns_size" (?proxy_call_returns_size@@3_KA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * buddy" (?buddy@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "float XM_PI" (?XM_PI@@3MA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "float XM_2PI" (?XM_2PI@@3MA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "float XM_1DIVPI" (?XM_1DIVPI@@3MA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "float XM_1DIV2PI" (?XM_1DIV2PI@@3MA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "float XM_PIDIV2" (?XM_PIDIV2@@3MA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "float XM_PIDIV4" (?XM_PIDIV4@@3MA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "unsigned __int64 offsets::radar::portrait_minimap" (?portrait_minimap@radar@offsets@@3_KA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "unsigned __int64 offsets::radar::character_minimap" (?character_minimap@radar@offsets@@3_KA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "unsigned __int64 offsets::minimap_component::observer_status" (?observer_status@minimap_component@offsets@@3_KA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "unsigned __int64 offsets::minimap_component::visible_status" (?visible_status@minimap_component@offsets@@3_KA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "unsigned __int64 offsets::hkdeath" (?hkdeath@offsets@@3_KA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "unsigned __int64 offsets::post_render" (?post_render@offsets@@3_KA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "unsigned __int64 offsets::update_view_target" (?update_view_target@offsets@@3_KA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "unsigned __int64 offsets::OHkTarget" (?OHkTarget@offsets@@3_KA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * AGameModeBase::GameSessionClass" (?GameSessionClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * AGameModeBase::GameStateClass" (?GameStateClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * AGameModeBase::PlayerControllerClass" (?PlayerControllerClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * AGameModeBase::PlayerStateClass" (?PlayerStateClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * AGameModeBase::HUDClass" (?HUDClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * AGameModeBase::DefaultPawnClass" (?DefaultPawnClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * AGameModeBase::SpectatorClass" (?SpectatorClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * AGameModeBase::ReplaySpectatorPlayerControllerClass" (?ReplaySpectatorPlayerControllerClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * AGameModeBase::ServerStatReplicatorClass" (?ServerStatReplicatorClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * AGameModeBase::SpectatorPlayerControllerClass" (?SpectatorPlayerControllerClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * AGameModeBase::SpectatorPlayerStateClass" (?SpectatorPlayerStateClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * AGameModeBase::GameSession" (?GameSession@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * AGameModeBase::GameState" (?GameState@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class uobject * AGameModeBase::ServerStatReplicator" (?ServerStatReplicator@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "unsigned __int64 offsets::death_reaction_component_offset" (?death_reaction_component_offset@offsets@@3_KA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "unsigned __int64 offsets::montage_effect_override_offset" (?montage_effect_override_offset@offsets@@3_KA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "unsigned __int64 offsets::montage_effect_override_context_offset" (?montage_effect_override_context_offset@offsets@@3_KA) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > BuddyNameYAY" (?BuddyNameYAY@@3V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@A) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class fstring BuddyName" (?BuddyName@@3Vfstring@@A) already defined in entry.obj; second definition ignored
+functions.obj : warning LNK4006: "class fstring AGameModeBase::OptionsString" (?OptionsString@AGameModeBase@@3Vfstring@@A) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "void __cdecl memory::EraseIATAndRelocs(struct HINSTANCE__ *)" (?EraseIATAndRelocs@memory@@YAXPEAUHINSTANCE__@@@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "double __cdecl GameplayStatics::GetTimeSeconds(class uobject *)" (?GetTimeSeconds@GameplayStatics@@YANPEAVuobject@@@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "bool __cdecl memory::IsValidPointer2(void *)" (?IsValidPointer2@memory@@YA_NPEAX@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "bool __cdecl kismentsystemlibrary::LineTraceSingle(struct UWorld2 *,struct fvector,struct fvector,enum ETraceTypeQuery,bool,struct tarray<struct AActor *>,enum EDrawDebugTrace,struct FHitResult &,bool,struct flinearcolor,struct flinearcolor,float)" (?LineTraceSingle@kismentsystemlibrary@@YA_NPEAUUWorld2@@Ufvector@@1W4ETraceTypeQuery@@_NU?$tarray@PEAUAActor@@@@W4EDrawDebugTrace@@AEAUFHitResult@@3Uflinearcolor@@7M@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class ftext __cdecl MakeSafeFText(class fstring const &)" (?MakeSafeFText@@YA?AVftext@@AEBVfstring@@@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "void __cdecl SecurelyClearBuffer(char volatile *,unsigned __int64)" (?SecurelyClearBuffer@@YAXPECD_K@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "void __cdecl SetAspectRatio(float)" (?SetAspectRatio@@YAXM@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "struct UParticleSystemComponent * __cdecl GameplayStatics::SpawnEmitterAtLocationWithWorld(class uobject *,struct UParticleSystem *,struct fvector,class frotator,struct fvector,bool,enum EPSCPoolMethod,bool,bool,float)" (?SpawnEmitterAtLocationWithWorld@GameplayStatics@@YAPEAUUParticleSystemComponent@@PEAVuobject@@PEAUUParticleSystem@@Ufvector@@Vfrotator@@2_NW4EPSCPoolMethod@@44M@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * __cdecl ShooterGameBlueprints::Static_Class(void)" (?Static_Class@ShooterGameBlueprints@@YAPEAVuobject@@XZ) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "float __cdecl __atan2f(float,float)" (?__atan2f@@YAMMM@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "float __cdecl __fabs(float)" (?__fabs@@YAMM@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "float __cdecl __sqrtf(float)" (?__sqrtf@@YAMM@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl computeHandshakeResponse(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?computeHandshakeResponse@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@0@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "void * __cdecl crt::custom_memcpy(void *,void const *,unsigned __int64)" (?custom_memcpy@crt@@YAPEAXPEAXPEBX_K@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "void * __cdecl crt::custom_memset(void *,int,unsigned int)" (?custom_memset@crt@@YAPEAXPEAXHI@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "void __cdecl initialize_spoofcall(unsigned char *,unsigned int)" (?initialize_spoofcall@@YAXPEAEI@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "bool __cdecl memory::is_valid(unsigned __int64)" (?is_valid@memory@@YA_N_K@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "bool __cdecl memory::isvalidniggersorwhat(void *,void *)" (?isvalidniggersorwhat@memory@@YA_NPEAX0@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "unsigned __int64 __cdecl malloc_spoofed(int,unsigned int)" (?malloc_spoofed@@YA_KHI@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class UObject * __cdecl kismentsystemlibrary::static_class(void)" (?static_class@kismentsystemlibrary@@YAPEAVUObject@@XZ) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class ftext __cdecl string_to_text(class fstring const &)" (?string_to_text@@YA?AVftext@@AEBVfstring@@@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "bool __cdecl verifyChallengeTimestamp(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?verifyChallengeTimestamp@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl xorEncryptDecrypt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?xorEncryptDecrypt@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@0@Z) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "float XM_PI" (?XM_PI@@3MA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "float XM_2PI" (?XM_2PI@@3MA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "float XM_1DIVPI" (?XM_1DIVPI@@3MA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "float XM_1DIV2PI" (?XM_1DIV2PI@@3MA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "float XM_PIDIV2" (?XM_PIDIV2@@3MA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "float XM_PIDIV4" (?XM_PIDIV4@@3MA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "unsigned __int64 offsets::radar::portrait_minimap" (?portrait_minimap@radar@offsets@@3_KA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "unsigned __int64 offsets::radar::character_minimap" (?character_minimap@radar@offsets@@3_KA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "unsigned __int64 offsets::minimap_component::observer_status" (?observer_status@minimap_component@offsets@@3_KA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "unsigned __int64 offsets::minimap_component::visible_status" (?visible_status@minimap_component@offsets@@3_KA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "unsigned __int64 offsets::hkdeath" (?hkdeath@offsets@@3_KA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "unsigned __int64 offsets::post_render" (?post_render@offsets@@3_KA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "unsigned __int64 offsets::update_view_target" (?update_view_target@offsets@@3_KA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "unsigned __int64 offsets::OHkTarget" (?OHkTarget@offsets@@3_KA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * AGameModeBase::GameSessionClass" (?GameSessionClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * AGameModeBase::GameStateClass" (?GameStateClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * AGameModeBase::PlayerControllerClass" (?PlayerControllerClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * AGameModeBase::PlayerStateClass" (?PlayerStateClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * AGameModeBase::HUDClass" (?HUDClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * AGameModeBase::DefaultPawnClass" (?DefaultPawnClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * AGameModeBase::SpectatorClass" (?SpectatorClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * AGameModeBase::ReplaySpectatorPlayerControllerClass" (?ReplaySpectatorPlayerControllerClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * AGameModeBase::ServerStatReplicatorClass" (?ServerStatReplicatorClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * AGameModeBase::SpectatorPlayerControllerClass" (?SpectatorPlayerControllerClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * AGameModeBase::SpectatorPlayerStateClass" (?SpectatorPlayerStateClass@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * AGameModeBase::GameSession" (?GameSession@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * AGameModeBase::GameState" (?GameState@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * AGameModeBase::ServerStatReplicator" (?ServerStatReplicator@AGameModeBase@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "bool vgknohack" (?vgknohack@@3_NA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class ashootercharacter * publicact" (?publicact@@3PEAVashootercharacter@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uworld * hooks::UWorldClass" (?UWorldClass@hooks@@3PEAVuworld@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "void (__cdecl* hooks::oHkDeath)(void *,void *)" (?oHkDeath@hooks@@3P6AXPEAX0@ZEA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "unsigned __int64 offsets::death_reaction_component_offset" (?death_reaction_component_offset@offsets@@3_KA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "unsigned __int64 offsets::montage_effect_override_offset" (?montage_effect_override_offset@offsets@@3_KA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "unsigned __int64 offsets::montage_effect_override_context_offset" (?montage_effect_override_context_offset@offsets@@3_KA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "void (__cdecl* hooks::oProcessEvent)(void *,class uobject *,void *,unsigned __int64,void *)" (?oProcessEvent@hooks@@3P6AXPEAXPEAVuobject@@0_K0@ZEA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "unsigned __int64 proxy_call_returns_size" (?proxy_call_returns_size@@3_KA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class uobject * buddy" (?buddy@@3PEAVuobject@@EA) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > BuddyNameYAY" (?BuddyNameYAY@@3V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@A) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class fstring BuddyName" (?BuddyName@@3Vfstring@@A) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class fstring AGameModeBase::OptionsString" (?OptionsString@AGameModeBase@@3Vfstring@@A) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class SLIGHTS::vmt::shadow hooks::viewport_shadow" (?viewport_shadow@hooks@@3Vshadow@vmt@SLIGHTS@@A) already defined in entry.obj; second definition ignored
+hooks.obj : warning LNK4006: "class SLIGHTS::vmt::shadow hooks::camera_shadow" (?camera_shadow@hooks@@3Vshadow@vmt@SLIGHTS@@A) already defined in entry.obj; second definition ignored
+     Creating library ..\x64\Release\gooo\Sync.lib and object ..\x64\Release\gooo\Sync.exp
+..\x64\Release\gooo\Sync.dll : warning LNK4088: image being generated due to /FORCE option; image may not run
+  project.vcxproj -> C:\Users\Administrator\Desktop\unlock all\unlock all\x64\Release\gooo\Sync.dll

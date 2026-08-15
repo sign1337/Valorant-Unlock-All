@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="cheat\functions.cpp">
+      <Filter>unrealengine</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\hooks.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="main\entry.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="encrypt\importer.hpp">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt\crt.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\definitions.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math.hpp">
+      <Filter>unrealengine</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\structs.hpp">
+      <Filter>unrealengine</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\functions.hpp">
+      <Filter>unrealengine</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\spoof.h" />
+    <ClInclude Include="cheat\junkcode.h" />
+    <ClInclude Include="sdk\ret_spoof.h" />
+    <ClInclude Include="sdk\spoof2.h" />
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="cheat\hooks.hpp">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineSDK.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\includes.hpp">
+      <Filter>unrealengine</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt\xor.hpp">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\junk1.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\memory.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\offsets.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="protection.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="protection">
+      <UniqueIdentifier>{332d8102-b1f4-4917-a06c-a771b94de2b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unrealengine">
+      <UniqueIdentifier>{bc14127e-ccd7-4266-aaa5-a10f28d720a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{f9b82c1a-442d-4c18-85c1-a7bfcca8931e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{ec91a815-505c-4cb2-99c5-0ddf472c115f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{28fa2dd8-319d-4a4f-84b5-88fc63beb407}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sdk\shadow_vmt.hpp">
+      <Filter>memory</Filter>
+    </None>
+    <None Include="exports.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="sdk\hook.asm" />
+    <MASM Include="spoofer\ret.asm" />
+    <MASM Include="memory.asm">
+      <Filter>memory</Filter>
+    </MASM>
+    <MASM Include="manualmap.asm">
+      <Filter>memory</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="nigga.rc" />
+  </ItemGroup>
+</Project>

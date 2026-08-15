@@ -1,0 +1,30 @@
+#include <windows.h>
+#include <winver.h>
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 5, 3, 2, 0
+PRODUCTVERSION 10, 0, 0, 0
+FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+FILEFLAGS 0
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE 0
+BEGIN
+BLOCK "StringFileInfo"
+BEGIN
+BLOCK "040904B0"
+BEGIN
+VALUE "CompanyName", "Riot Games, Inc."
+VALUE "FileDescription", "VALORANT"
+VALUE "FileVersion", "5.3.2.0"
+VALUE "ProductName", "VALORANT"
+VALUE "ProductVersion", "10"
+VALUE "OriginalFilename", "VALORANT-Win64-Shipping.exe"
+VALUE "LegalCopyright", "Copyright Riot Games, Inc."
+END
+END
+BLOCK "VarFileInfo"
+BEGIN
+VALUE "Translation", 0x0409, 1200
+END
+END
